@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+  
+
+    <script type="text/javascript" src="./Assets/Javascript/game.js"></script>
+    
+    
+    <title>Guess The President!</title>
+
+</head>
+
+<body>
+    
+    <div class = "container jumbotron">
+           
+        <header>
+            <h1  class="display-3 text-white bg-success mb-4 text-center font-weight-bold"> Can You Name the Presidents on U.S. Currency?</h1>
+            <p class = "lead text-white bg-success text-center"> You have 10 chances to guess the correct President</p>
+            
+        </header>
+
+    </div>
+    <br>
+
+    </br>
+    
+    <div class="row">
+        <div class="mx-auto">
+            <img src="./Assets/Images/MoneyImage.jpeg" class="img-responsive" alt="Money" width="500px"; height="auto";>
+
+        </div>
+
+    </div>
+
+    <br>
+
+    </br>
+
+
+    <div class = "container">
+        <div class = "row.col-lg">
+            <div class= "card text-white bg-success mb-3">
+                <div class = "card-body">
+                    <h2>Enter letters A through Z and find out if you match!</h2>
+                    <br>
+                    
+                    <h4>Wins</h4>
+                    <h5 id="totalWins"></h5>
+                    
+                    <h4>Current Word</h4>
+                    <h3 id="currentWord"></h3>
+                    
+                    <h4>Guesses Remaining</h4>
+                    <h6 id="remainingGuesses"></h6>
+                    
+                    <h4>Letters Guessed</h4>
+                    <h3 id= "guessedLetters"></h3>
+                    
+                </div>
+            </div>
+
+
+        </div>
+
+
+
+
+
+    </div>
+
+
+
+    </div>
+    
+<script>
+    resetGame();
+    updateDisplay();
+
+</script>
+ <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+ <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script> 
+</body>
+</html>
