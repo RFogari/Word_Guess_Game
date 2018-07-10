@@ -8,3 +8,5 @@ If you guessed an incorrect letter, the guesses remaining will decrease by one.
 Each game is a round of 10 chances.
 Guess correctly and you might win.
 Good Luck.
+
+Link to live demo: https://rfogari.github.io/Word_Guess_Game/
